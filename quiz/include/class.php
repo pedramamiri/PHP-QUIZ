@@ -18,7 +18,7 @@ class question {
 
     }
     public function setQuestion(){
-        $form = "<div>";
+        $form = "<div style='background-color: #92a8d1;border:5px solid #92a8d1;border-radius:4px;padding:3px;width:60%;'>";
         $form .= "<h2>{$this->text}</h2>";
         $form .= "<input type='radio' name='{$this->key}' value='".$this->answer1."'>{$this->answer1}<br>";
         $form .= "<input type='radio' name='{$this->key}' value='".$this->answer2."'>{$this->answer2}<br>";
